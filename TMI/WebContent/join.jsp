@@ -55,10 +55,18 @@
                             </div>
                             <div class="form-bottom">
 			                    <form role="form" action="" method="post" class="login-form">
+			                    	
+			          			<div class="col-sm-9" style="padding-left:0px">
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="form-username">Username</label>
 			                        	<input type="text" name="form-username" placeholder="아이디 입력" class="form-username form-control" id="form-username">
 			                        </div>
+			                    </div>
+			                    <div class="col-sm-3" style="padding-right:0px">
+			                    	<div class="form-group">
+			                    		<button type="submit" class="btn">중복 확인</button>	
+			                    	</div>
+			                    </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">Password</label>
 			                        	<input type="password" name="form-password" placeholder="비밀번호 입력" class="form-password form-control" id="form-password">
@@ -73,22 +81,37 @@
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">Password</label>
-			                        	<input type="radio" name="gender" value="m" style="color:white">남
-			                        	<input type="radio" name="gender" value="f" style="color:white">여
+			                        	<input type="radio" name="gender" value="m" style="width:20px;height:20px;"><strong style="color:white; font-size:20px"> 남 &nbsp </strong>
+			                        	<input type="radio" name="gender" value="f" style="width:20px;height:20px;"><strong style="color:white; font-size:20px"> 여 &nbsp </strong>
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="form-password">Password</label>
 			                        	<input type="text" name="form-password" placeholder="전화번호 입력" class="form-password form-control" id="form-password">
 			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-password">Password</label>
-			                        	<input type="text" name="form-password" placeholder="주소 입력" class="form-password form-control" id="form-password">
+			                        <div class="col-sm-9" style="padding-left:0px">
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-password">Password</label>
+				                        	<input type="text" name="form-password" placeholder="주소 입력" class="form-password form-control" id="form-password">
+				                        </div>
+				                    </div>
+				                    <div class="col-sm-3" style="padding-right:0px">
+				                    	<div class="form-group">
+				                    		<button type="submit" class="btn">주소 검색</button>	
+				                    	</div>
+			                   		</div>
+			                   		<div class="col-sm-9" style="padding-left:0px">	
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-password">Password</label>
+				                        	<input type="text" name="form-password" placeholder="이메일 입력" class="form-password form-control" id="form-password">
+				                        </div>
 			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-password">Password</label>
-			                        	<input type="text" name="form-password" placeholder="이메일 입력" class="form-password form-control" id="form-password">
-			                        </div>
-			                        <button type="submit" class="btn" onclick="join.jsp">가입하기</button>		           
+			                        <div class="col-sm-3" style="padding-right:0px">
+				                    	<div class="form-group">
+				                    		<button type="submit" class="btn">인증</button>	
+				                    	</div>
+			                    	</div>	
+			                        
+			                        <button type="submit" class="btn">가입하기</button>		           
 			                    </form>
 		                    </div>
                         </div>

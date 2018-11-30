@@ -121,8 +121,9 @@
          </ul>
       </div>
       
-      <h2 style="position: relative;top:100px;left:700px;">친구 List</h2>
+      <h1 style="position: relative;top:100px;" align="center"><strong>친구 List</strong></h1>
        <div class="table-responsive" style="position: relative;top:100px;left:5px;">
+       <br><br>
        	<form id="fs" class="navbar-form navbar-right" role="search">
          <div class="form-group">
             <input type="text" class="form-control" placeholder="Search">
@@ -131,10 +132,8 @@
            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
             	 친구찾기
            </button> 
-
          </div>
       </form>
-       	
       	<table class="table">
       		<tr>
       			<td><img id="imgs" src="img/who.png" width="100px" height="100px"><br>홍석진 님</td>

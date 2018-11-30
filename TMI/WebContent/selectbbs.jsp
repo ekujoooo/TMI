@@ -1,6 +1,6 @@
-<%@page import="java.util.Calendar"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Calendar"%>
 
 <%
 	request.setCharacterEncoding("UTF-8");
@@ -23,12 +23,12 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <style type="text/css">
 #header {
-	background-image: url(img/main2.jpg);
-	background-size: cover;
+	background-image: url(img/head.jpg);
+	background-size: 100% 160%;
 }
 
 #lsy {
-	background-image: url(img/tmi.png);
+	background-image: url(img/logo.png);
 	background-position: left top;
 	margin: 0px;
 	border: 1px;
@@ -40,7 +40,7 @@
 	float: left;
 	background-color: skyblue;
 	padding: 70px;
-	height: 1000px;
+	height: 100%;
 	text-align: center;
 }
 
@@ -52,11 +52,17 @@
 	right: 500px;
 }
 
-.navbar-form {
+.navbar-form{
 	position: relative;
-	top: 180px;
-	right: 600px;
+	top: 170px;
+	right: 5%;
 }
+
+#Image-Maps-Com-image-maps-2018-11-25-224644{
+	position: relative;
+	left: 10%;
+}
+
 #select > p{
 	position : relative;
 	top : 100px;
@@ -88,37 +94,29 @@
 			</div>
 		</form>
 		<div id="header">
+			<br><br>
 			<h3 id="lsy"></h3>
-			<br> <br>
 		</div>
 		<div id="menu">
-			<img id="imgs" src="img/who.png" width="100px" height="100px"><br>
+			<img id="imgs" src="img/profile.png" width="100px" height="100px"><br>
 			<br>
-			<p>OOO님 환영합니다.</p>
+			<p><strong>OOO님 환영합니다.</strong></p>
+			<br>
 			<ul class="nav nav-pills nav-stacked">
-				<li role="presentation" class="active"><a href="#">Logout</a></li>
-				<br>
-				<br>
-				<li role="presentation" class="active"><a href="#">홈</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">지역선택</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">나의 여행지</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">마이 페이지</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">친구 List</a></li>
-				<br>
-				<br>
+			  <li role="presentation" class="active"><a href="#">Logout</a></li><br><br>
+			  <li role="presentation" class="active"><a href="#">홈</a></li><br><br>
+			  <li role="presentation"><a href="#">지역선택</a></li><br><br>
+			  <li role="presentation"><a href="#">나의 여행지</a></li><br><br>
+			  <li role="presentation"><a href="#">마이 페이지</a></li><br><br>
+			  <li role="presentation"><a href="#">친구 List</a></li><br><br>
+			  <li role="presentation"><a href="#">친구 찾기</a></li><br><br>
+			  <li role="presentation"><a href="#">메세지함</a></li><br><br>
 			</ul>
 		</div>
-			<h3 align="center">선택지역 게시판</h3>
+		<br><br>
+		<h1 align="center"><strong>선택지역 게시판</strong></h1>
 		<div id="select">
-			<div class="btn-group" style="position: relative;top:50px; left:600px;">
+			<div class="btn-group" style="position: relative;top:50px; left:65%;">
 			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 			    정렬 기준 <span class="caret"></span>
 			  </button>
@@ -128,25 +126,25 @@
 			    <li><a href="#">좋아요순</a></li>
 			  </ul>
 			</div>
-			<p>
-				<img alt="" src="img/11.jpg" width="200px;" height="200px;">
-				<img alt="" src="img/22.jpg" width="200px;" height="200px;">
-				<img alt="" src="img/33.jpg" width="200px;" height="200px;">
-			</p>
-			<br>
-			
-			<p>
-				<img alt="" src="img/44.jpg" width="200px;" height="200px;">
-				<img alt="" src="img/55.jpg" width="200px;" height="200px;">
-				<img alt="" src="img/66.jpg" width="200px;" height="200px;">
-			</p>
-			<br>
-			
-			<p>
-				<img alt="" src="img/77.jpg" width="200px;" height="200px;">
-				<img alt="" src="img/88.jpg" width="200px;" height="200px;">
-				<img alt="" src="img/99.jpg" width="200px;" height="200px;">
-			</p>
+				<p>
+					<img alt="" src="img/11.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+					<img alt="" src="img/22.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+					<img alt="" src="img/33.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+				</p>
+				<br>
+				
+				<p>
+					<img alt="" src="img/44.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+					<img alt="" src="img/55.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+					<img alt="" src="img/66.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+				</p>
+				<br>
+				
+				<p>
+					<img alt="" src="img/77.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+					<img alt="" src="img/88.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+					<img alt="" src="img/99.jpg" width="200px;" height="200px;">&nbsp&nbsp&nbsp&nbsp
+				</p>
 		</div>
 	</div>
 	<footer>

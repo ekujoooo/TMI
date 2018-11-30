@@ -148,29 +148,30 @@
 			    <li><a href="#">경상도</a></li>
 			    <li><a href="#">부산</a></li>
 			  </ul>
-			 <tr>
-		    <td>제목</td>
-		    <td><input type="text" name="title" style="width: 90%;" /></td>
+			<tr>
+		    <td><strong style="font-size:20px">제목</strong></td>
+		    <td><input type="text" name="title" style="width: 98%;" /></td>
 			</tr>
 		</div>
 		<tr>
 		    <td colspan="2">
 		    	<br>
 		        <textarea name="content" rows="17" cols="50"></textarea>
+		        <br><br>
 		    </td>
 		</tr>
 		<br>
 		<tr>
-		    <td>첨부 파일</td>
+		    <td><strong style="font-size:20px">첨부 파일</strong></td>
 		    <td><input type="file" name="attachFile" /></td>
 		</tr>
 		
 		</table>
 		<br>
 		<tr>
-			<input type="radio">전체공개 
-			<input type="radio">친구에게만 공개 
-			<input type="radio">비공개 
+			<input type="radio" style="width:20px;height:20px;"><strong style="font-size:20px"> 전체공개 &nbsp </strong>
+			<input type="radio" style="width:20px;height:20px;"><strong style="font-size:20px"> 친구에게만 공개 &nbsp </strong>
+			<input type="radio" style="width:20px;height:20px;"><strong style="font-size:20px"> 비공개 &nbsp </strong>
 		
 		</tr>
 		<div style="text-align: center;padding-bottom: 15px;">

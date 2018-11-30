@@ -24,7 +24,7 @@
 <style type="text/css">
 #header {
 	background-image: url(img/head.jpg);
-	background-size: 100% 100%;
+	background-size: 100% 160%;
 }
 
 #lsy {
@@ -40,7 +40,7 @@
 	float: left;
 	background-color: skyblue;
 	padding: 70px;
-	height: 1000px;
+	height: 100%;
 	text-align: center;
 }
 
@@ -62,6 +62,14 @@
 	position: relative;
 	left: 10%;
 }
+
+#select > p{
+	position : relative;
+	top : 100px;
+	left: 100px;
+}
+
+
 
 
 </style>
@@ -86,47 +94,41 @@
 			</div>
 		</form>
 		<div id="header">
+			<br><br>
 			<h3 id="lsy"></h3>
-			<br> <br>
 		</div>
 		<div id="menu">
 			<img id="imgs" src="img/profile.png" width="100px" height="100px"><br>
 			<br>
-			<p>OOO님 환영합니다.</p>
+			<p><strong>OOO님 환영합니다.</strong></p>
+			<br>
 			<ul class="nav nav-pills nav-stacked">
-				<li role="presentation" class="active"><a href="#">Logout</a></li>
-				<br>
-				<br>
-				<li role="presentation" class="active"><a href="#">홈</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">지역선택</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">나의 여행지</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">마이 페이지</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">친구 List</a></li>
-				<br>
-				<br>
+			  <li role="presentation" class="active"><a href="#">Logout</a></li><br><br>
+			  <li role="presentation" class="active"><a href="#">홈</a></li><br><br>
+			  <li role="presentation"><a href="#">지역선택</a></li><br><br>
+			  <li role="presentation"><a href="#">나의 여행지</a></li><br><br>
+			  <li role="presentation"><a href="#">마이 페이지</a></li><br><br>
+			  <li role="presentation"><a href="#">친구 List</a></li><br><br>
+			  <li role="presentation"><a href="#">친구 찾기</a></li><br><br>
+			  <li role="presentation"><a href="#">메세지함</a></li><br><br>
 			</ul>
 		</div>
 		
-				<!-- 본문 시작 -->
+		<!-- 본문 시작 -->
 		<div id="writee">
-		<p></p>
-		<h1><strong>게시글 보기</strong></h1>
+		<br>
+		<h1><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;게시글 보기</strong></h1>
 		<br>
 		<form id="writeForm" action="write_proc.jsp" method="post" enctype="multipart/form-data">
-		<input type="hidden" name="boardCd" value="free" />
-		<table id="write-form" class="bbs-table" style="width: 60%;">
+		<input type="hidden" name="boardCd" value="free"/>
+		<table id="write-form" class="bbs-table" style="width: 60%;"align="center">
 		<div id="select">
 			<div class="btn-group">
 			<tr>
-		    <td><h2><strong>제목</strong></h2></td>
+			<td><img alt="" src="img/11.jpg" width="300px;" height="300px;"><img></td>
+			</tr>
+			<tr>
+			<td><h2><strong>제목</strong></h2></td>
 			</tr>
 		</div>
 		<tr>

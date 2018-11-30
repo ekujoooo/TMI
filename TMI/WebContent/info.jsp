@@ -1,6 +1,6 @@
-<%@page import="java.util.Calendar"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Calendar"%>
 
 <%
 	request.setCharacterEncoding("UTF-8");
@@ -28,7 +28,7 @@
 }
 
 #lsy {
-	background-image: url(img/tmi.png);
+	background-image: url(img/logo.png);
 	background-position: left top;
 	margin: 0px;
 	border: 1px;
@@ -40,7 +40,7 @@
 	float: left;
 	background-color: skyblue;
 	padding: 70px;
-	height: 1000px;
+	height: 100%;
 	text-align: center;
 }
 
@@ -50,13 +50,19 @@
 	position: relative;
 	top: 100px;
 	right: 500px;
-}	
-
-.navbar-form {
-	position: relative;
-	top: 180px;
-	right: 600px;
 }
+
+.navbar-form{
+	position: relative;
+	top: 170px;
+	right: 5%;
+}
+
+#Image-Maps-Com-image-maps-2018-11-25-224644{
+	position: relative;
+	left: 10%;
+}
+
 #select > p{
 	position : relative;
 	top : 100px;
@@ -88,74 +94,72 @@
 			</div>
 		</form>
 		<div id="header">
+			<br><br>
 			<h3 id="lsy"></h3>
-			<br> <br>
 		</div>
 		<div id="menu">
-			<img id="imgs" src="img/who.png" width="100px" height="100px"><br>
+			<img id="imgs" src="img/profile.png" width="100px" height="100px"><br>
 			<br>
-			<p>OOO님 환영합니다.</p>
+			<p><strong>OOO님 환영합니다.</strong></p>
+			<br>
 			<ul class="nav nav-pills nav-stacked">
-				<li role="presentation" class="active"><a href="#">Logout</a></li>
-				<br>
-				<br>
-				<li role="presentation" class="active"><a href="#">홈</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">지역선택</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">나의 여행지</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">마이 페이지</a></li>
-				<br>
-				<br>
-				<li role="presentation"><a href="#">친구 List</a></li>
-				<br>
-				<br>
+			  <li role="presentation" class="active"><a href="#">Logout</a></li><br><br>
+			  <li role="presentation" class="active"><a href="#">홈</a></li><br><br>
+			  <li role="presentation"><a href="#">지역선택</a></li><br><br>
+			  <li role="presentation"><a href="#">나의 여행지</a></li><br><br>
+			  <li role="presentation"><a href="#">마이 페이지</a></li><br><br>
+			  <li role="presentation"><a href="#">친구 List</a></li><br><br>
+			  <li role="presentation"><a href="#">친구 찾기</a></li><br><br>
+			  <li role="presentation"><a href="#">메세지함</a></li><br><br>
 			</ul>
 		</div>
-		<h3 style="position: relative; top:50px;left:450px;">회원 정보 수정</h3>
-		<div class="form-bottom" style="position: relative; top: 100px; left: 400px;">
+		<h1 style="position: relative; top:50px;" align="center" ><strong>회원 정보 수정</strong></h1>
+		<div class="form-bottom" style="position: relative; top: 100px;" align="center">
 			
 			<form role="form" method="post" class="register-form">
-				<div class="form-group">이름 :  &nbsp;
+				<div class="form-group" style="font-size:20px">이름 :  &nbsp;
 					<label class="sr-only" for="form-password" class="form-username form-control">name</label>
-					<input type="text" name = "form-password" placeholder="  이름를 입력해주세요"  />
+					<input type="text" name = "form-password" placeholder="  이름를 입력해주세요"  style="width:330px; height:40px" />
 				</div>
 				<br>
-				<div class="form-group">비밀번호 :  &nbsp;
+				<div class="form-group" style="font-size:20px">비밀번호 :  &nbsp;
 					<label class="sr-only" for="form-password">비밀번호</label>
-					<input type="password" name = "form-password" placeholder="  비밀번호를 입력해주세요"  />
+					<input type="password" name = "form-password" placeholder="  비밀번호를 입력해주세요"  style="width:290px; height:40px"/>
 				</div>
 				<br>
-				<div class="form-group">비밀번호확인 : &nbsp;
+				<div class="form-group" style="font-size:20px">비밀번호확인 : &nbsp;
 					<label class="sr-only" for="form-password">비밀번호</label>
-					<input type="password" name = "form-password" placeholder="  비밀번호를 입력해주세요"  />
+					<input type="password" name = "form-password" placeholder="  비밀번호를 입력해주세요" style="width:250px; height:40px" />
 				</div>
 				<br>
-				<div class="form-group">휴대전화 :  &nbsp;
+				<div class="form-group" style="font-size:20px">휴대전화 :  &nbsp;
 					<label class="sr-only" for="form-password">비밀번호</label>
-					<input type="text" name = "form-password" placeholder="전화번호를 입력해주세요"  />
+					<input type="text" name = "form-password" placeholder="전화번호를 입력해주세요"  style="width:290px; height:40px" />
 				</div>
 				<br>
-				<div class="form-group">주소 : &nbsp;
+				<div class="form-group" style="font-size:20px">주소 : &nbsp;
 					<label class="sr-only" for="form-password">비밀번호</label>
-					<input type="text" name = "form-password" placeholder="주소를 입력해주세요"  />
-					<button type="button" value="주소">상세주소</button>
+					<input type="text" name = "form-password" placeholder="주소를 입력해주세요" style="width:240px; height:40px" />
+					<button type="button" value="주소" style="width:90px; height:40px; font-size:15px">주소검색</button>
 				</div>
 				<br>
-				<div class="form-group">이메일 :  &nbsp;
+				<div class="form-group" style="font-size:20px">이메일 :  &nbsp;
 					<label class="sr-only" for="form-password">비밀번호</label>
-					<input type="text" name = "form-password" placeholder="이메일을 입력해주세요"  />
+					<input type="text" name = "form-password" placeholder="이메일을 입력해주세요"  style="width:310px; height:40px"/>
 				</div>
-				
-					<button type="submit" value="변경">변경</button>
-					<button type="button" value="취소">취소</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<button type="button" value="탈퇴">탈퇴하기</button>
+				<br>
+				<div class="form-group">
+					<button type="submit" value="변경" style="width:90px; height:40px; font-size:20px">변경</button>&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="button" value="취소" style="width:90px; height:40px; font-size:20px">취소</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="button" value="탈퇴" style="width:90px; height:40px; font-size:15px">탈퇴하기</button>
+				</div>
 			</form>
 		</div>
 	</div>
+	<footer>
+		<div class="btn=group dropup" style="position: fixed; right: 20px; bottom: 20px;" >
+		<button type="button" class="btn btn-default" >실시간채팅</button>
+		</div>
+	</footer>
 </body>
 </html>
